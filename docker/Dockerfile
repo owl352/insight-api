@@ -2,10 +2,12 @@ FROM node:16-alpine
 
 RUN apk add --update --no-cache \
                             git \
+                            curl \
                             libzmq \
                             zeromq-dev \
                             python3 \
                             make \
+                            cmake \
                             g++
 
 WORKDIR /insight
