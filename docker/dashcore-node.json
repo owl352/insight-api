@@ -9,12 +9,12 @@
   "servicesConfig": {
     "dashd": {
       "connect": [{
-        "rpchost": "127.0.0.1",
+        "rpchost": "172.26.24.4",
         "rpcport": 9998,
-        "rpcuser": "dashrpc",
-        "rpcpassword": "password",
-        "zmqpubrawtx": "tcp://127.0.0.1:29998",
-        "zmqpubhashblock": "tcp://127.0.0.1:29998"
+        "rpcuser": "dashmate",
+        "rpcpassword": "0fAwFLlVkam4",
+        "zmqpubrawtx": "tcp://172.26.24.4:29998",
+        "zmqpubhashblock": "tcp://172.26.24.4:29998"
       }]
     }
   }
